@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    
+    font-size: 14px;
+}
+
+/*===mercury-header===*/
+.banner{
+    background-image: url(../images/2k_stars.jpg);
+    height: 85vh;
+    animation: spin 30s linear alternate infinite;
+}
+.mercury-img{
+    background-image: url(../images/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_1024.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 550px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -23px -20px 38px 3px #000 inset, 0 0 20px 2px rgb(160, 150, 150);
+    animation: spin 30s linear alternate infinite;
+}
+
+
+@keyframes spin {
+    100%{
+        background-position: 100%;
+    }
+    
+}
+
+/* === card-mercury==*/
+.banner .card{
+    border: solid white 1px;
+    position: absolute;
+    width: 230px;
+    top: 20%;
+    left: 8%;
+    background: transparent;
+
+}
+.banner .card h3,h5,p,a{
+    color: white;
+    padding: 0px 10px;
+   
+}
+.banner .card h3{
+    font-size: 28px;
+    margin-top: 8px;
+}
+.banner .card h5{
+    font-size: 10px; 
+    line-height: 0;  
+}
+
+.banner .card p{
+    line-height: 1.4;  
+}
+
+.banner .card a{
+    font-size: 15px; 
+   text-decoration: none; 
+    text-align: center;
+
+}
+.banner .card a:hover{
+    color: grey;
+
+}
+/* =========== Navigation ============ */
+
+.nav-information{
+    background-color: rgb(39, 38, 38);
+    height: 11vh;
+}
+.nav-information ul li{
+    padding: 0px 30px;
+}
+.nav-information h4{
+    color:rgb(145, 145, 11);
+    text-align: center;
+    margin: 8px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.nav-information p{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 8px;
+  
+}
+
+.more{
+    background-color: rgb(170, 170, 12);
+    height: 4vh;
+}
+.more h5{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+
+}
