@@ -11,6 +11,87 @@
     <!-- adding navigation css file -->
     <link rel="stylesheet" href="style">
 
+    <style>
+        .container-first {
+      position: relative;
+      z-index: 9;
+    }
+
+    .container-second {
+      position: relative;
+      z-index: 9;
+    }
+
+    .intro1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+    }
+
+    p {
+      /* border: 1px solid red; */
+      /* background: lightblue; */
+      color: lightgrey;
+    }
+
+    .second-para {
+      width: 50%;
+
+    }
+
+    .solar-system {
+      width: 40%;
+      /* border: 2px solid yellow; */
+      margin: auto;
+    }
+
+    .solar-system img {
+      width: 100%;
+    }
+
+    .container-second {
+      width: 70%;
+      color: grey;
+    }
+
+    .table {
+      color: grey;
+      font-weight: bold;
+    }
+
+    .container-fluid {
+    border: unset;
+    }
+
+    @media only screen and(max-width: 990px) {
+
+      .second-para {
+        width: 100%;
+      }
+
+      .first-para {
+        width: 100%;
+      }
+
+      .solar-system {
+        width: 80%;
+        margin: auto;
+        /* border: 2px solid yellow; */
+      }
+
+    }
+
+    @media only screen and(max-width: 800px) {
+
+      .container-second {
+        width: 100%;
+        color: grey;
+      }
+    }
+    </style>
+
 </head>
 <body>
     
