@@ -49,44 +49,7 @@ body {
     
 }
 
-/* === card-mercury==*/
-.banner .card{
-    border: solid white 1px;
-    position: absolute;
-    width: 230px;
-    top: 20%;
-    left: 8%;
-    background: transparent;
 
-}
-.banner .card h3,h5,p,a{
-    color: white;
-    padding: 0px 10px;
-   
-}
-.banner .card h3{
-    font-size: 28px;
-    margin-top: 8px;
-}
-.banner .card h5{
-    font-size: 10px; 
-    line-height: 0;  
-}
-
-.banner .card p{
-    line-height: 1.4;  
-}
-
-.banner .card a{
-    font-size: 15px; 
-   text-decoration: none; 
-    text-align: center;
-
-}
-.banner .card a:hover{
-    color: grey;
-
-}
 /* =========== Navigation for info============ */
 
 .nav-information{
