@@ -1,0 +1,312 @@
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+    html,
+    body {
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        margin: 0;
+        padding: 0;
+    }
+    
+    * {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        background: url('./img/2k_stars.jpg');
+        animation-delay: 0s;
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    a:hover {
+        opacity: 0.6;
+        color: blue;
+        font-size: 24px;
+    }
+    
+    .content {
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        display: flex;
+    }
+    
+    .left-content {
+        width: 65%;
+        margin: 20px;
+        margin-right: 0;
+        padding: 5%;
+        text-align: justify;
+    }
+    
+    .heading {
+        font-size: 2.5rem;
+        /* color: red; */
+        color: white;
+        font-weight: bold;
+    }
+    
+    .left-content p,
+    ul li {
+        font-size: 18px;
+    }
+    
+    .container-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .container-1 h3 {
+        font-size: 1.5rem;
+    }
+    
+    .container-1 .img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .container-1 .img-container .img {
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .container-1 .img-container .img h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .container-1 .img-container .img img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    .right-content {
+        width: 35%;
+        margin-top: 110px;
+        padding: 5%;
+        text-align: justify;
+        margin-right: 2%;
+    }
+    
+    table {
+        width: 100%;
+        margin: 100px auto;
+        border-collapse: collapse;
+        padding: 0px 5px;
+    }
+    
+    tr {
+        border-collapse: collapse;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    tbody {
+        padding: 10px;
+    }
+    
+    thead tr th {
+        padding: 10px;
+        font-size: 24px;
+        /* color: red; */
+        color: white;
+    }
+    
+    tr td {
+        padding: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    tbody tr td {
+        font-size: 18px;
+        text-align: left;
+        color: black;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: rgb(202, 251, 202);
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: white;
+    }
+    
+    tbody tr td:nth-child(1) {
+        font-weight: bolder;
+    }
+    
+    tr:hover {
+        opacity: 0.8;
+        /* transition: 0.4s ease-in-out; */
+    }
+    
+    .right-content .popular {
+        /* margin-top: 40px;
+        padding: 20px; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .right-content .menu-content {
+        margin-top: 40px;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .right-content .popular .head-content {
+        margin: 5px;
+        width: 70%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        font-size: 18px;
+        /* text-align: center; */
+    }
+    
+    .right-content .popular .list ul {
+        padding: 2px;
+    }
+    
+    .right-content .popular .list ul li {
+        list-style: none;
+        padding: 5px;
+        border-bottom: 1px solid white;
+    }
+    
+    .questions {
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    
+    details {
+        /* border: 1px solid #aaa; */
+        border-radius: 4px;
+        padding: .5em .5em 0;
+        color: white;
+        font-size: 24px;
+    }
+    
+    summary {
+        font-weight: bold;
+        margin: -.5em -.5em 0;
+        padding: .5em;
+    }
+    
+    details[open] {
+        padding: .5em;
+    }
+    
+    details[open] summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+    }
+    
+    @media (max-width:870px) {
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .left-content {
+            width: 100%;
+        }
+        .right-content {
+            width: 100%;
+            margin-top: 0px;
+        }
+        table {
+            margin: 20px auto;
+        }
+        .right-content .popular {
+            /* margin-top: 40px;
+            padding: 20px; */
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .right-content .menu-content {
+            margin-top: 40px;
+            padding: 20px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:450px) {
+        .heading {
+            font-size: 1.8rem;
+        }
+        details {
+            font-size: 17px;
+        }
+    }
+    
+    @media(max-width:475px) {
+        .container-1 h3 {
+            font-size: 1.2rem;
+        }
+        .container-1 .img-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container-1 .img-container .img {
+            width: 75%;
+            padding: 8px;
+            margin: 8px;
+        }
+        .container-1 .img-container .img h5 {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    @media (max-width:600px) {
+        .container-1 .img-container .img h5 {
+            font-size: 16px;
+            text-align: center;
+        }
+        details {
+            font-size: 20px;
+        }
+    }
