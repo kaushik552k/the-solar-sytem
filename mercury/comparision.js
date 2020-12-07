@@ -1,7 +1,7 @@
 function check1(){
     var selected_Planet = document.getElementById("selectplanet").value;
     console.log(selected_Planet);
-    var s = '/img/'+selected_Planet+'.jpg';
+    var s = './mercury-images/'+selected_Planet+'.jpg';
     document.getElementById("change").src = s;
 
 
@@ -14,7 +14,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -27,7 +27,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -40,7 +40,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -53,7 +53,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -66,7 +66,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -79,7 +79,7 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
 
     }
@@ -92,9 +92,21 @@ function check1(){
         document.getElementById("one").innerHTML = aod;
         document.getElementById("two").innerHTML = mov;
         document.getElementById("three").innerHTML = sg;
-        document.getElementById("four").innerHTML = volume;
+        document.getElementById("four").innerHTML = ev;
         document.getElementById("five").innerHTML = as;
-
+    }
+    
+    else if(selected_Planet == "earth"){
+        var aod = "149,598,262km";
+        var mov = "107,218km/h";
+        var sg = "9.80665m/s2";
+        var ev = "40,284km/h";
+        var as = "510,064,472km2";
+        document.getElementById("one").innerHTML = aod;
+        document.getElementById("two").innerHTML = mov;
+        document.getElementById("three").innerHTML = sg;
+        document.getElementById("four").innerHTML = ev;
+        document.getElementById("five").innerHTML = as;
     }
     
 }
