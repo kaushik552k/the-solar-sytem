@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid Belt Facts</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../facts-navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        body {
+            font-size: 10px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            background: url('../img/2k_stars.jpg');
+            animation-delay: 0s;
+            color: white;
+            text-align: justify;
+        }
+        
+        .h3 {
+            font-size: 1.8rem;
+        }
+        
+        h5,
+        p,
+        .container ul li {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Solar Syatem</div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Planets +</label>
+                <a href="#">Features</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="earth-fact.html">Earth</a></li>
+                    <li><a href="mars-fact.html">Mars</a></li>
+                    <li><a href="">Jupiter</a></li>
+                    <li><a href="">Neptune</a></li>
+                    <li><a href="">Venus</a></li>
+                    <li><a href="">Mercury</a></li>
+                    <li><a href="">Saturn</a></li>
+                    <li><a href="">Uranus</a></li>
+                </ul>
+            </li>
+            <li><a href="">Facts</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container mt-5">
+        <p class="h1">Asteroid Belt Facts</p>
+        <br>
+        <div class="img"><img src="https://space-facts.com/wp-content/uploads/asteroid-belt.png" alt="" class="img-fluid"></div><br> <br> <br>
+        <p class="h3">Facts about the Asteroid Belt</p>
+        <br><br>
+        <h5>What other fascinating things do we know about the Asteroid Belt?</h5>
+        <br><br>
+        <ul>
+            <li>Asteroid Belt objects are made of rock and stone. Some are solid objects, while others are orbiting “rubble piles”</li>
+            <li>The Asteroid Belt contains billions and billions of asteroids.</li>
+            <li>Some asteroids in the Belt are quite large, but most range in size down to pebbles.</li>
+            <li>The asteroid 1/Ceres is also designated as a dwarf planet, the largest one in the inner solar system.</li>
+            <li>We know of at least 7,000 asteroids.</li>
+            <li>The Asteroid Belt may contain many objects, but they are spread out over a huge area of space. This has allowed spacecraft to move through this region without hitting anything.</li>
+            <li>Asteroids get their names from suggestions by their discoverers and are also given a number.</li>
+            <li>The formation of Jupiter disrupted the formation of any worlds in the Asteroid Belt region by scattering asteroids away. This caused them to collide and break into smaller pieces.</li>
+            <li>Gravitational influences can move asteroids out of the Belt.</li>
+            <li>The Asteroid Belt is often referred to as the “Main Belt” to distinguish it from other groups of asteroids such as the Lagrangians and Centaurs.</li>
+        </ul>
+        <br><br>
+        <p class="h3">What is the asteroid belt?</p><br><br>
+        <p>The vast majority of asteroids in the solar system are found in a region of the solar system out beyond Mars. They form the Asteroid Belt. Others orbit in near-Earth space and a few migrate or are thrown out to the outer solar system by gravitational
+            interactions. The four largest asteroids in the belt are Ceres, Vesta, Pallas, and Hygiea. They contain half the mass of the entire belt. The rest of the mass is contained in countless smaller bodies. There was a theory once that if you combined
+            all the asteroids they would make up the missing “Fifth” rocky planet. Planetary scientists estimate that if you could put all that material together that exists there today, it would make a tiny world smaller than Earth’s moon.</p> <br><br>
+        <div class="img"><img src="https://space-facts.com/wp-content/uploads/asteroids.png" alt="" class="img-fluid"></div>
+        <br><br><br>
+        <p class="h3">Where is the asteroid belt located?</p><br><br>
+        <p>The Asteroid Belt is located in an area of space between the orbits of Mars and Jupiter. That places it between 2.2 and 3.2 astronomical units (AU) from the Sun. The belt is about 1 AU thick. The average distance between objects in the Asteroid
+            Belt is quite large. If you could stand on an asteroid and look around, the next one would be too far away to see very well</p><br><br>
+        <p class="h3">Asteroid Mining</p><br><br>
+        <p>The solar system contains many different types of asteroids, grouped by the minerals they contain. The abundances of precious metals such as nickel, iron, and titanium (to name a few), and water make asteroids an attractive target for mining operations
+            when humans decide to expand their presence through interplanetary space. For example, water from asteroids could serve colonies in space, while the minerals and metals would be used to build habitats and grow food for future space colony
+            inhabitants. Beginning 2013, companies interested in asteroid mining began announcing their plans for future operations on distant planetoids. In addition, NASA is looking into similar missions. The biggest obstacles to asteroid mining are
+            the need to develop affordable spaceflight technology that would allow humans to get to the asteroids of interest.</p>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
+</body>
+
+</html>
