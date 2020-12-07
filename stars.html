@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="facts-navbar.css">
     <title>Stars</title>
     <style>
         * {
@@ -15,6 +18,7 @@
         body {
             background: url(./img/2k_stars.jpg);
             animation-delay: 0s;
+            /* color: white; */
         }
         
         .left-content {
@@ -122,6 +126,34 @@
 </head>
 
 <body>
+    <nav>
+        <div class="logo">
+            Solar Syatem</div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Planets +</label>
+                <a href="#">Features</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="earth-fact.html">Earth</a></li>
+                    <li><a href="mars-fact.html">Mars</a></li>
+                    <li><a href="">Jupiter</a></li>
+                    <li><a href="">Neptune</a></li>
+                    <li><a href="">Venus</a></li>
+                    <li><a href="">Mercury</a></li>
+                    <li><a href="">Saturn</a></li>
+                    <li><a href="">Uranus</a></li>
+                </ul>
+            </li>
+            <li><a href="">Facts</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="left-content">
             <h1 class="heading">Solar System Facts</h1>
@@ -191,6 +223,11 @@
             to keep the Moon in orbit around the Earth.
         </details>
     </div>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
 
 </body>
 
