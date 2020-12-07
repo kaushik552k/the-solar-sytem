@@ -1,7 +1,7 @@
 function check1(){
     var selected_Planet = document.getElementById("selectplanet").value;
     console.log(selected_Planet);
-    var s = '/images/'+selected_Planet+'.jpg';
+    var s = '../images/'+selected_Planet+'.jpg';
     document.getElementById("change").src = s;
 
 
