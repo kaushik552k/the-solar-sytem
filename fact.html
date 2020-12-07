@@ -6,10 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fact Page</title>
     <link rel="stylesheet" href="./fact.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="facts-navbar.css">
     <!-- <link rel="stylesheet" href="./style.css"> -->
+
 </head>
 
 <body class="opening hide-UI view-2D zoom-large data-close controls-close">
+    <nav>
+        <div class="logo">
+            Solar Syatem</div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Planets +</label>
+                <a href="#">Features</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="earth-fact.html">Earth</a></li>
+                    <li><a href="mars-fact.html">Mars</a></li>
+                    <li><a href="">Jupiter</a></li>
+                    <li><a href="">Neptune</a></li>
+                    <li><a href="">Venus</a></li>
+                    <li><a href="">Mercury</a></li>
+                    <li><a href="">Saturn</a></li>
+                    <li><a href="">Uranus</a></li>
+                </ul>
+            </li>
+            <li><a href="">Facts</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
 
     <div class="content">
         <div class="left-content">
@@ -284,6 +316,11 @@
             </ul>
         </details>
     </div>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
 </body>
 
 </html>
