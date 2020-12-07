@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
 
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="./navbar/nav.css">
+
 
 
     <style>
@@ -146,7 +148,53 @@
 </head>
 
 <body>
+<!-- navbar code -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand logo" href="./workingdemo.html"><img src="../images/logo.JPG" alt=""></a>
+    <a class="navbar-brand solar1" href="./workingdemo.html">Solar System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav1" id="collapsibleNavbar">
+      <ul class="navbar-nav color1">
+        <li class="nav-item">
+          <a class="nav-link spacing" href="#"><span></span>
+            <span></span>
+            <span></span>
+            <span></span> HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle spacing spacing1" href="#" id="navbardrop" data-toggle="dropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            PLANETS
+          </a>
+          <div class="dropdown-menu bg-dark">
+            <a class="dropdown-item" href="./sun/sun.html">Sun</a>
+            <a class="dropdown-item" href="./mercury/mercury.html">Mercury</a>
+            <a class="dropdown-item" href="./venus/venus.html">Venus</a>
+            <a class="dropdown-item" href="./earth/earth.html">Earth</a>
+            <a class="dropdown-item" href="./mars/mars.html">Mars</a>
+            <a class="dropdown-item" href="./jupiter/jupiter.html">Jupiter</a>
+            <a class="dropdown-item" href="./saturn/saturn.html">Saturn</a>
+            <a class="dropdown-item" href="./uranus/uranus.html">Uranus</a>
+            <a class="dropdown-item" href="./neptune/neptune.html">Neptune</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link spacing" href="./fact.html"><span></span>
+            <span></span>
+            <span></span>
+            <span></span> FACTS</a>
 
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- navbar end -->
     <!-- overview first content -->
     <h1 style="position: relative; z-index: 9;color: #d95a00;margin: 70px 0px;" class="text-center">THE SOLAR SYSTEM
     </h1>
@@ -364,9 +412,6 @@
     </div>
 
 </div>
-
-
-
 
 
     <!--footer-->
