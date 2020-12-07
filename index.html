@@ -103,6 +103,24 @@
             }
 
         }
+        .glowing span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 90px;
+            background: #262626;
+            border: 4px solid #333;
+            font-size: 48px;
+            color: #333;
+            text-align: center;
+            line-height: 90px;
+            border-radius: 90px;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+       
 
         @media only screen and(max-width: 800px) {
 
@@ -125,11 +143,9 @@
     <!-- overview first content -->
     <h1 style="position: relative; z-index: 9;color: #d95a00;margin: 70px 0px;" class="text-center">THE SOLAR SYSTEM
     </h1>
-
-    <div class="container mt-5 container-first">
-        <div class="heading1 mb-2">
-            <h1 class=""></h1>
-        </div>
+    <button style="position: absolute;top: 11%;right: 10%;border: 2px solid#d95a00;background-color: black;cursor: pointer;"><a href="./landing.html" style="color:#d95a00 ;">Click Here for Working Demo</a></button>
+        <div class="container mt-5 container-first">
+        
         <div class="container text-center">
             <div class="text-left">
                 <p class="first-para">Our solar system currently consists of the Sun, eight planets, five
@@ -157,7 +173,7 @@
                     call it a meteorite.
                 </p>
                 <div class="solar-system">
-                    <img src="img/solar.jpg" alt="">
+                    <img src="./images/ss.jpg" alt="">
                 </div>
             </div>
         </div>
