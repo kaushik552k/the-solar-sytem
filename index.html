@@ -17,7 +17,7 @@
 
     <style>
         body {
-            background-image: url("../img/2k_stars.jpg");
+            background-image: url("./img/2k_stars.jpg");
             background-size: cover;
             animation: spin 4s infinite;
             animation-timing-function: linear;
@@ -25,87 +25,81 @@
             height: 100vh;
             font-family: 'Poppins', sans-serif;
         }
-
+        
         .container-first {
             position: relative;
             z-index: 9;
             background: rgba(255, 255, 255, 0.1);
             padding: 10px 0px;
         }
-
+        
         .container-second {
             position: relative;
             z-index: 9;
         }
-
+        
         .intro1 {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-
         }
-
+        
         h2 {
             color: #d95a00;
             margin: 70px 0px;
         }
-
+        
         p {
             /* border: 1px solid red; */
             /* background: lightblue; */
             color: lightgrey;
         }
-
+        
         .second-para {
             width: 50%;
-
         }
-
+        
         .solar-system {
             width: 40%;
             /* border: 2px solid yellow; */
             margin: auto;
         }
-
+        
         .solar-system img {
             width: 100%;
         }
-
+        
         .container-second {
             width: 70%;
             background: rgba(255, 255, 255, 0.1);
-
             color: grey;
         }
-
+        
         .table {
             color: grey;
             font-weight: bold;
         }
-
+        
         .container-fluid {
             border: unset;
         }
-
+        
         @media only screen and(max-width: 990px) {
-
             .second-para {
                 width: 100%;
             }
-
             .first-para {
                 width: 100%;
             }
-
             .solar-system {
                 width: 80%;
                 margin: auto;
                 /* border: 2px solid yellow; */
             }
-
         }
-        .glowing span{
+        
+        .glowing span {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -122,79 +116,78 @@
             text-transform: uppercase;
             transition: .5s;
         }
-       
-
+        
         @media only screen and(max-width: 800px) {
-
             .container-second {
                 width: 100%;
                 color: grey;
             }
         }
+        
         @keyframes spin {
-  100% {
-    background-position: 100%;
-  }
-}
-.click{
-    flex-direction: column;
-    width: 12%;
-    margin: auto;
-    display: flex;
-    position: relative;
-}
+            100% {
+                background-position: 100%;
+            }
+        }
+        
+        .click {
+            flex-direction: column;
+            width: 12%;
+            margin: auto;
+            display: flex;
+            position: relative;
+        }
     </style>
 
 </head>
 
 <body>
-<!-- navbar code -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand logo" href="workingdemo.html"><img src="../images/logo.JPG" alt=""></a>
-    <a class="navbar-brand solar1" href="workingdemo.html">Solar System</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <!-- navbar code -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="workingdemo.html"><img src="../images/logo.JPG" alt=""></a>
+        <a class="navbar-brand solar1" href="workingdemo.html">Solar System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse nav1" id="collapsibleNavbar">
-      <ul class="navbar-nav color1">
-        <li class="nav-item">
-          <a class="nav-link spacing" href="#"><span></span>
+        <div class="collapse navbar-collapse nav1" id="collapsibleNavbar">
+            <ul class="navbar-nav color1">
+                <li class="nav-item">
+                    <a class="nav-link spacing" href="#"><span></span>
             <span></span>
             <span></span>
             <span></span> HOME</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle spacing spacing1" href="#" id="navbardrop" data-toggle="dropdown">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            PLANETS
-          </a>
-          <div class="dropdown-menu bg-dark">
-            <a class="dropdown-item" href="./sun/sun.html">Sun</a>
-            <a class="dropdown-item" href="./mercury/mercury.html">Mercury</a>
-            <a class="dropdown-item" href="./venus/venus.html">Venus</a>
-            <a class="dropdown-item" href="./earth/earth.html">Earth</a>
-            <a class="dropdown-item" href="./mars/mars.html">Mars</a>
-            <a class="dropdown-item" href="./jupiter/jupiter.html">Jupiter</a>
-            <a class="dropdown-item" href="./saturn/saturn.html">Saturn</a>
-            <a class="dropdown-item" href="./uranus/uranus.html">Uranus</a>
-            <a class="dropdown-item" href="./neptune/neptune.html">Neptune</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link spacing" href="./fact.html"><span></span>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle spacing spacing1" href="#" id="navbardrop" data-toggle="dropdown">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span> PLANETS
+                    </a>
+                    <div class="dropdown-menu bg-dark">
+                        <a class="dropdown-item" href="./sun/sun.html">Sun</a>
+                        <a class="dropdown-item" href="./mercury/mercury.html">Mercury</a>
+                        <a class="dropdown-item" href="./venus/venus.html">Venus</a>
+                        <a class="dropdown-item" href="./earth/earth.html">Earth</a>
+                        <a class="dropdown-item" href="./mars/mars.html">Mars</a>
+                        <a class="dropdown-item" href="./jupiter/jupiter.html">Jupiter</a>
+                        <a class="dropdown-item" href="./saturn/saturn.html">Saturn</a>
+                        <a class="dropdown-item" href="./uranus/uranus.html">Uranus</a>
+                        <a class="dropdown-item" href="./neptune/neptune.html">Neptune</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link spacing" href="./fact.html"><span></span>
             <span></span>
             <span></span>
             <span></span> FACTS</a>
 
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
-  <!-- navbar end -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
     <!-- overview first content -->
     <h1 style="position: relative; z-index: 9;color: #d95a00;margin: 70px 0px;" class="text-center">THE SOLAR SYSTEM
     </h1>
@@ -202,33 +195,18 @@
         <button style="border: 2px solid#d95a00;background-color: black;cursor: pointer;"><a href="workingdemo.html" style="color:#d95a00 ;">Click Here for Working Demo</a></button>
 
     </div>
-        <div class="container mt-5 container-first">
-        
+    <div class="container mt-5 container-first">
+
         <div class="container text-center">
             <div class="text-left">
-                <p class="first-para">Our solar system currently consists of the Sun, eight planets, five
-                    dwarf planets, nearly 200 known moons, and a host of smaller objects.</p>
+                <p class="first-para">Our solar system currently consists of the Sun, eight planets, five dwarf planets, nearly 200 known moons, and a host of smaller objects.</p>
 
             </div>
             <div class="intro1">
-                <p class="second-para text-left">The planets can be divided into two
-                    groups: the inner terrestrial planets and the outer giant planets. Pluto, Eris, Haumea, and Makemake
-                    do not
-                    fit
-                    into either category; as icy dwarf planets, they exist in an ice realm on the fringes of the main
-                    planetary
-                    system. The giant planets are composed mostly of liquids and gases. Smaller members of the solar
-                    system
-                    include
-                    asteroids (including the dwarf planet Ceres), which are rocky and metallic objects found mostly
-                    between Mars
-                    and
-                    Jupiter; comets, which are made mostly of frozen gases and generally orbit far from the Sun; and
-                    countless
-                    smaller grains of cosmic dust. When a meteor survives its passage through our atmosphere and falls
-                    to Earth,
-                    we
-                    call it a meteorite.
+                <p class="second-para text-left">The planets can be divided into two groups: the inner terrestrial planets and the outer giant planets. Pluto, Eris, Haumea, and Makemake do not fit into either category; as icy dwarf planets, they exist in an ice realm on the fringes of
+                    the main planetary system. The giant planets are composed mostly of liquids and gases. Smaller members of the solar system include asteroids (including the dwarf planet Ceres), which are rocky and metallic objects found mostly between
+                    Mars and Jupiter; comets, which are made mostly of frozen gases and generally orbit far from the Sun; and countless smaller grains of cosmic dust. When a meteor survives its passage through our atmosphere and falls to Earth, we call
+                    it a meteorite.
                 </p>
                 <div class="solar-system">
                     <img src="./images/ss.jpg" alt="">
@@ -242,8 +220,7 @@
     <!-- adding table short description on planet -->
     <h2 class="text-center mb-4" style="position: relative; z-index: 9;">Planets short Description</h2>
 
-    <div
-        class="container-fluid .table-responsive-sm .table-responsive-md .table-responsive-lg .table-responsive-xl container-second .mx-1 / mx-*-#">
+    <div class="container-fluid .table-responsive-sm .table-responsive-md .table-responsive-lg .table-responsive-xl container-second .mx-1 / mx-*-#">
         <table class="table table-hover">
             <thead class="thead-dark">
                 <tr>
@@ -326,84 +303,86 @@
     </div>
     <!-- end of table -->
 
-<!-- slider -->
+    <!-- slider -->
 
-<div class="container-fluid" style="margin-top:200px ;">
-    <div class="row">
-        <div class="col-sm-12">
-            <div id="inam" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-lg-4">
-                                    <a href="./mercury/mercury.html"><img src="../images/mercury.png" class="card-img-top" style="width: 60%;"></a>   
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                                    <a href="./venus/venus.html"><img src="../images/venus.png" class="card-img-top"  style="width: 90%;">
-                                    </a>
+    <div class="container-fluid" style="margin-top:200px ;">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./mercury/mercury.html"><img src="./images/mercury.png" class="card-img-top" style="width: 60%;"></a>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./venus/venus.html"><img src="./images/venus.png" class="card-img-top" style="width: 90%;">
+                                        </a>
 
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                                    <div style="margin-left: 111px;">
-                                        <a href="./earth/earth.html"><img src="../images/earth.png" class="card-img-top" style="width: 90%;"></a>
-                                        
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div style="margin-left: 111px;">
+                                            <a href="./earth/earth.html"><img src="./images/earth.png" class="card-img-top" style="width: 90%;"></a>
+
+                                        </div>
+
                                     </div>
 
                                 </div>
 
                             </div>
 
+
                         </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./mars/mars.html"> <img src="./images/mars.png" class="card-img-top" style="width: 60%;"></a>
 
 
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-lg-4">
-                                <a href="./mars/mars.html"> <img src="../images/mars.png" class="card-img-top"  style="width: 60%;"></a>
-                                       
-                                   
 
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                                <a href="./jupiter/jupiter.html"><img src="../images/jupiter.png" class="card-img-top" style="width: 60%;"></a>
-                                
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./jupiter/jupiter.html"><img src="./images/jupiter.png" class="card-img-top" style="width: 60%;"></a>
 
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                               <a href="./saturn/saturn.html"><img src="../images/saturn.png" class="card-img-top" ></a>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./saturn/saturn.html"><img src="./images/saturn.png" class="card-img-top"></a>
+                                    </div>
+
                                 </div>
 
                             </div>
 
+
                         </div>
-
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-lg-4">
-                                    <a href="./uranus/uranus.html"><img src="../images/uranus.png" class="card-img-top" style="width: 60%;"></a>
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                                    <a href="./neptune/neptune.html"><img src="../images/neptune.png" class="card-img-top" style="width: 60%;"></a>               
-                                </div>
-                                <div class="col-sm-12 col-lg-4">  
-                                    <a href="./sun/sun.html"><img src="../images/sun.png" class="card-img-top" style="width: 61%;"></a> 
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./uranus/uranus.html"><img src="./images/uranus.png" class="card-img-top" style="width: 60%;"></a>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./neptune/neptune.html"><img src="./images/neptune.png" class="card-img-top" style="width: 60%;"></a>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <a href="./sun/sun.html"><img src="./images/sun.png" class="card-img-top" style="width: 61%;"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#inam" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
                 </div>
-                <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a href="#inam" class="carousel-control-next" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
 
             </div>
 
@@ -411,12 +390,10 @@
 
     </div>
 
-</div>
-
 
     <!--footer-->
     <footer class="page-footer bg-dark mt-5">
-        <div class="bg bg-success" >
+        <div class="bg bg-success">
             <div class="container">
                 <div class="row py-3 d-flex align-items-center">
                     <div class="col-md-12 text-center">
